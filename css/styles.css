@@ -1,0 +1,55 @@
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+header,
+footer {
+	height: 400px;
+	padding: 2rem;
+	background-color: #eff2f7;
+	text-align: center;
+}
+
+header {
+	background: url(../img/squoosh-bg-small.jpg) center bottom / cover no-repeat;
+}
+
+footer {
+	height: 100%;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+@media only screen and (min-width: 850px){
+
+	header {
+		background: url(../img/squoosh-bg-medium.jpg) center bottom / cover no-repeat;
+	}
+
+	h1 {
+		color: #fff;
+		text-shadow: 5px 3px 9px rgba(0,0,0,0.6);
+		font-size: calc(2rem + 2vw);
+	}
+}
+
+@media only screen and (min-width: 1000px){
+	header {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 1300px){
+	header {
+		background: url(../img/squoosh-bg-large.jpg) center bottom / cover no-repeat;
+		height: 700px;
+	}
+}
